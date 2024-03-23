@@ -1,0 +1,43 @@
+/* Write your code here. */
+.NavBar {
+  background-color: #9796f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.scoreContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logoImg {
+  height: 40px;
+}
+
+.logoName {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.score {
+  color: white;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.topScore {
+  color: white;
+  font-weight: 600;
+}
